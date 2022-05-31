@@ -1,0 +1,14 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <include file="db.changelog/1.0/2022-05-28--0001-cards.sql" author="avorotincev"/>
+    <include file="db.changelog/1.0/2022-05-28--0002-user_accounts.sql" author="avorotincev"/>
+    <include file="db.changelog/1.0/2022-05-28--0003-operations.sql" author="avorotincev"/>
+
+    <include file="db.changelog/data/2022-05-28--0001-cards-data.xml" author="avorotincev"/>
+    <include file="db.changelog/data/2022-05-28--0002-user_accounts-data.xml" author="avorotincev"/>
+    <include file="db.changelog/data/2022-05-28--0003-operations-data.xml" author="avorotincev"/>
+</databaseChangeLog>
